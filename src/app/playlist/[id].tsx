@@ -4,14 +4,14 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors } from '../../constants/theme';
-import { playlists, tracks } from '../../data/music';
+import { getPlaylist, tracks } from '../../data/music';
 import TrackRow from '../../components/TrackRow';
 
 export default function PlaylistScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const playlist = playlists.find((p) => p.id === id);
+  const playlist = getPlaylist(id);
 
   if (!playlist) {
     return (
