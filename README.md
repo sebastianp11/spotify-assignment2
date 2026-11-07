@@ -55,3 +55,4 @@ Then scan the QR code with Expo Go on your phone. If your phone can't connect ov
 
 - All data is mock data. There is no backend or login.
 - Covers are solid colors instead of album images.
+- There is finished images in the respected folder, same with references.
