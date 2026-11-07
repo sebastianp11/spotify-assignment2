@@ -2,7 +2,7 @@
 
 A multi-screen mobile app built with Expo, React Native and TypeScript. It recreates the layout and navigation of the Spotify mobile app.
 
-**Student:** [Your name] · **Student ID:** [Your ID] · **Course:** [Course code]
+**Student:** [Sebastian Pedersen] · **Student ID:** [000981815] · **Course:** [CPRG 303-B]
 
 ## Reference app
 
